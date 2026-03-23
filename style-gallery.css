@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+html{
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(images/backgrounds/flat-lay-copy-space-paint.jpg); */
+    background-image: url(images/backgrounds/walnut-background.png);
+    /* background-image: url(images/backgrounds/flat-lay-copy-space-paint-flipped.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Julius Sans One;
+}
+img{
+    width: 15vw;
+    border-radius: 20px;
+}
+h1{
+    text-shadow: 1px 2px 0 #969696, 1px 4px 5px #aba8a8;
+    color: white;
+}
+h2{
+    color: white;
+    font-family: Julius Sans One;
+    text-shadow: 0px 1px 0 #969696, 1px 4px 5px #aba8a8;
+
+}
+/* HEADER START */
+.header-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    background-color: #440707;
+    /* background-image: url(images/backgrounds/flat-lay-copy-space-paint-flipped.jpg); */
+    /* background-image: url(images/backgrounds/walnut-background.png); */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border-bottom: #ffffff 1px solid;
+    margin: auto;
+    padding: auto;
+}
+#logo-text{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    box-shadow: 0px 5px 15px 5px #000000;
+    border-radius: 25px;
+    border: 2px solid black;
+    /* border-top: none; */
+    padding: 10px;
+    background-color: #440707b4;
+}
+.navbar img{
+    aspect-ratio: 1;
+    background-color: #440707b4;
+    width: 62px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 5px #000000;
+    border: solid black 2px;
+
+}
+.navbar-2{
+    background-color: #440707;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: #ffffff solid 1px;
+}
+#home-btn, #booking-btn, #gallery-btn, #feedback-btn{
+    text-decoration: none;
+    background-color: #440707b4;
+    border: #000000 solid 1px;
+    border-radius: 45px;
+    box-shadow: 0px 5px 15px 5px #000000;
+    font-family: Julius Sans One;
+    color: white;
+    height: 22px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#home-btn:hover, #booking-btn:hover, #gallery-btn:hover, #feedback-btn:hover{
+    box-shadow: 0px 5px 15px 5px #ffffff66;
+    background-color: #880808d3;
+    border: #ffffff 1px solid;
+
+}
+/* HEADER END */
+
+/* MAIN SECTION START */
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 60px 0px 100px;
+
+}
+            /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  width: 70%;
+  height: 70%;
+  padding: 20px 0px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #440707b4;
+  border-radius: 20px;
+  border: white 1px solid;
+  box-shadow: 0px 5px 15px 5px #000000;
+}
+.slideshow-container #next{
+    margin-left: auto;
+}
+.slideshow-container #previous{
+    margin-right: auto;
+}
+.slideshow-container h2{
+    color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    padding: 20px;
+    margin-left: 200px;    
+}
+/* .slideshow-container a{
+    color: #ffffff;
+} */
+.slideshow-container img{
+    width: 75%;
+    border: #000000 2px solid;
+}
+
+            /* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+            /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  /* position: absolute; */
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 20px;
+  user-select: none;
+  margin: 10px;
+}
+
+            /* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 20px;
+}
+
+            /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #000000b4;
+}
+
+            /* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+        /* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #440707b4;
+  border-radius: 50%;
+  /* display: inline-block; */
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+            /* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* MAIN SECTION END */
+
+/* Footer section start */
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #440707;
+    border-top: white 1px solid;
+}
+.footer-btn-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+}
+.footer-section a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.footer-section a:hover{
+    color: red;
+    border-radius: 25px;
+    text-shadow: 0px 1px 0 #969696, 1px 4px 5px #aba8a8;
+}
+.footer-textbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.footer-txt2{
+    color: rgb(255, 0, 60);
+    font-size: 20px;
+}
+/*Footer section end */

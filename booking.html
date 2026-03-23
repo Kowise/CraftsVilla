@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-booking.css">
+    <title>Craftsvilla</title>
+</head>
+<body>
+<!-- Header section start -->
+<header class="header-section">
+    <div class="navbar">
+        <img src="images/logoicons/blacksmith.png" alt="blacksmith & anvil">
+        <img src="images/logoicons/paper-crafts.png" alt="scissor & paper">
+        <h1 id="logo-text">Craftsvilla</h1>
+        <img src="images/logoicons/handcraft.png" alt="scissor & tools">
+        <img src="images/logoicons/tool-box.png" alt="toolbox">
+    </div>
+    <div class="navbar-2">
+        <a id="home-btn" href="index.html">Home</a>
+        <a id="booking-btn" href="booking.html">Booking</a>
+        <a id="gallery-btn" href="gallery.html">Gallery</a>
+        <a id="feedback-btn" href="feedback.html">Feedback</a>
+    </div>
+</header>
+<!-- Header section end -->
+
+<!-- Main section start -->
+<section class="main-section">
+    <div id="main-box1" onclick="">
+        <h2 id="main-box1-title">Woodwork-Shop</h2>
+        <img src="images/slideshow/slideshow4.png" alt="collection of art">
+        <p>price: 450,-nok</p>
+            <p>In this workshop, you'll learn basic techniques, work with natural materials, and create your own unique piece by hand. Perfect for beginners and anyone looking to unwind while being creative.</p>
+    </div>
+    <div id="main-box2">
+        <h2 id="main-box2-title">Painter's-Workshop</h2>
+        <img src="images/slideshow/slideshow2.png" alt="collection of art">
+        <p>price: 370,-nok</p>
+        <p>In this workshop, you'll learn painting techniques, experiment with different styles, and create your own artwork. Suitable for all skill levels, it's a perfect way to relax and express yourself.</p>
+    </div>
+    <div id="main-box3">
+        <h2 id="main-box3-title">Open Air Workshop</h2>
+        <img src="images/slideshow/slideshow3.png" alt="collection of art">
+        <p>price: 350,-nok</p>
+        <p>Surrounded by peaceful natural scenery, you'll have the freedom to explore different art forms while relaxing outdoors. This workshop is all about unwinding, finding inspiration in nature, and creating at your own pace.”</p>
+    </div>
+    <div id="main-box4">
+        <h2 id="main-box4-title">Metalworker's Shop</h2>
+        <img src="images/slideshow/slideshow1.png" alt="gathering">
+        <p>price: 500,-nok</p>
+        <p>In this workshop, you'll learn fundamental techniques, shape and craft metal by hand, and create a unique piece of your own. Perfect for beginners and curious creators looking to try something new.”</p>
+    </div>
+</section>
+<section class="booking-section">
+    <div class="booking-box">
+        <h2>Booking</h2>
+        <form action="">
+            <div id="booking-form1">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="booking-email">eMail</label>
+            <input type="email" name="booking-email" id="booking-email">
+            <br>
+            <label for="phone">Phone#</label>
+            <input type="tel" name="phone" id="phone">
+            <br>
+            <label for="workshops">Choose workshop:</label>
+                <select name="workshops" id="workshops">
+                    <option value="Metalwork">Metalwork</option>
+                    <option value="Woodwork">Woodwork</option>
+                    <option value="Open Air">Open Air</option>
+                    <option value="Painting">Painting</option>
+                    <option value="Other">Other</option>
+                </select>
+            <!-- <br> -->
+            </div>
+            <div id="booking-form2">
+            <label for="persons">Persons</label>
+            <input type="number" name="persons" id="persons">
+            <br>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <label for="opt-message" id="message-label">Message</label>
+            <textarea name="opt-message" id="opt-message"></textarea>
+            <br>
+            <a href="#">Submit</a>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Main section end -->
+<!-- Footer section start-->
+<footer class="footer-section">
+    <div class="footer-btn-box">
+        <a href="index.html">Home</a>
+        <a href="booking.html">Booking</a>
+        <!-- <a href="#about-section">About-us</a> -->
+        <!-- <a href="feedback.html">Contact</a> -->
+        <a href="gallery.html">Gallery</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+    <div class="footer-textbox">
+        <p>Adress:</p>
+            <p class="footer-txt2">Toolstreet20</p>
+        <p>Phone:</p>
+            <p class="footer-txt2">40231942</p>
+        <p>eMail:</p>
+            <p class="footer-txt2">craftsvilla@gmail</p>
+    </div>
+</footer>
+<!-- Footer section end -->
+</body>
+</html>
