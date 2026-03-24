@@ -7,82 +7,82 @@
     <title>Gallery</title>
 </head>
 <body>
-<!-- Header section start -->
-<header class="header-section">
-    <div class="navbar">
-        <img src="images/logoicons/blacksmith.png" alt="blacksmith & anvil">
-        <img src="images/logoicons/paper-crafts.png" alt="scissor & paper">
-        <h1 id="logo-text">Craftsvilla</h1>
-        <img src="images/logoicons/handcraft.png" alt="scissor & tools">
-        <img src="images/logoicons/tool-box.png" alt="toolbox">
-    </div>
-    <div class="navbar-2">
-        <a id="home-btn" href="index.html">Home</a>
-        <a id="booking-btn" href="booking.html">Booking</a>
-        <a id="gallery-btn" href="gallery.html">Gallery</a>
-        <a id="feedback-btn" href="feedback.html">Feedback</a>
-    </div>
-</header>
-<!-- Header section end -->
+<!-- Header-section-start -->
+    <header class="header-section">
+        <div class="navbar">
+            <img src="images/logoicons/blacksmith.png" alt="Blacksmith and anvil icon">
+            <img src="images/logoicons/paper-crafts.png" alt="Scissors and paper icon">
+            <h1 class="logo-text">Craftsvilla</h1>
+            <img src="images/logoicons/handcraft.png" alt="Handcraft tools icon">
+            <img src="images/logoicons/tool-box.png" alt="Toolbox icon">
+        </div>
 
-<!-- Main section start -->
-<section class="main-section">
-    <div class="slideshow-container">
-        <div id="previous">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <nav class="navbar-2">
+            <a href="index.html">Home</a>
+            <a href="booking.html">Booking</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+<!-- Header-section-end -->
+
+<!-- Main-section-start -->
+    <section class="main-section">
+        <div class="slideshow-container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+            <div class="mySlides fade">
+                <h2>Open Air Workshop</h2>
+                <img src="images/slideshow/slideshow3.png" alt="Open air workshop">
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Metal Workshop</h2>
+                <img src="images/slideshow/slideshow1.png" alt="Metal workshop">
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Painters Workshop</h2>
+                <img src="images/slideshow/slideshow2.png" alt="Painters workshop">
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Woodwork Shop</h2>
+                <img src="images/slideshow/slideshow4.png" alt="Woodwork workshop">
+            </div>
+
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class="mySlides">
-            <h2>Open air workshop</h2>
-            <img src="images/slideshow/slideshow3.png" alt="utendørs maling">
-            <!-- <a href="booking.html">Book Here</a> -->
+
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
-        <div class="mySlides">
-            <h2>MetallWorkshop</h2>
-            <img src="images/slideshow/slideshow1.png" alt="slide2">
-            <!-- <a href="booking.html">Book Here</a> -->
+    </section>
+<!-- Main-section-end -->
+
+<!-- Footer-section-start -->
+    <footer class="footer-section">
+        <div class="footer-btn-box">
+            <a href="index.html">Home</a>
+            <a href="booking.html">Booking</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="feedback.html">Feedback</a>
         </div>
-        <div class="mySlides">
-            <h2>Painters Workshop</h2>
-            <img src="images/slideshow/slideshow2.png" alt="slide3">
-            <!-- <a href="booking.html">Book Here</a> -->
-        </div>
-        <div class="mySlides">
-            <h2>Woodwork-Shop</h2>
-            <img src="images/slideshow/slideshow4.png" alt="slide3">
-            <!-- <a href="booking.html">Book Here</a> -->
-        </div>
-        <div id="next">
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-    </div>
-    <br>
-    <div style="text-align: center;">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentslide(3)"></span>
-    </div>
-</section>
-<!-- Main section end -->
-<!-- Footer section start-->
-<footer class="footer-section">
-    <div class="footer-btn-box">
-        <a href="index.html">Home</a>
-        <a href="booking.html">Booking</a>
-        <!-- <a href="#about-section">About-us</a> -->
-        <!-- <a href="feedback.html">Contact</a> -->
-        <a href="gallery.html">Gallery</a>
-        <a href="feedback.html">Feedback</a>
-    </div>
-    <div class="footer-textbox">
-        <p>Adress:</p>
-            <p class="footer-txt2">Toolstreet20</p>
-        <p>Phone:</p>
+
+        <div class="footer-textbox">
+            <p>Address:</p>
+            <p class="footer-txt2">Toolstreet 20</p>
+            <p>Phone:</p>
             <p class="footer-txt2">40231942</p>
-        <p>eMail:</p>
-            <p class="footer-txt2">craftsvilla@gmail</p>
-    </div>
-</footer>
-<!-- Footer section end -->
- <script src="script.js"></script>
+            <p>Email:</p>
+            <p class="footer-txt2">craftsvilla@gmail.com</p>
+        </div>
+    </footer>
+<!-- Footer-section-end -->
+ 
+    <script src="script.js"></script>
 </body>
 </html>
